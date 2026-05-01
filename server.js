@@ -5,7 +5,7 @@ const cors = require('cors');
 const app = express();
 app.use(cors());
 
-const TOKEN = 'EAANPqHn6MHgBRb8EmaOOoG71bfStVLGiHsjYcZAqmDjCEJWpmi2ERdX7MmXOFqx1JtUYy7F0BPhtRG7xROPYqgZAV6tZA9qAy75JUiX2AHLzn6Sq2NKd7muLZCi507LMU7pQQYOUFuEY1fyJYPKBgZCSa1hcvQCsUm6ZAeZABSYKBHttTlrggiZANDGwpL8AfvnQ';
+const TOKEN = EAANPqHn6MHgBRZA0oHZApj9nwB7z4ZAnaK8qu7uHZAWPBops6VgDZB6DgaxMN2ILXIbx0h0GzBKSp4YsYskwTOJYf8FaB5Xw0EDkH5QGQMQZAEZCMOzZCpNcFS6VVEjZCLubRnqB175KxrULntxDrXqiWsZBeOmMrMW3ICRApqo3jMgiiBr8bXATPesehtINXdbMDM
 const AD_ACCOUNT = 'act_812951570871410';
 
 app.get('/insights', async (req, res) => {
